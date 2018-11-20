@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+h3{
+    font-size: 1em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .3);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-normal{
+    text-decoration: none;
+    background-color: rgb(162, 162, 162);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1em;
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+
+.btn-normal:hover{
+    background-color: rgb(172, 172, 172);
+}
+
+.btn-normal:focus{
+    background-color: rgb(148, 148, 148);
+}
+
+.btn-default{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, .6);
+    font-size: 1em;
+    padding: 12px 30px;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+
+.btn-default:hover{
+    background-color: rgba(0, 0, 0, .02);
+}
+
+.btn-default:focus{
+    background-color: rgba(0, 0, 0, .05);
+}
